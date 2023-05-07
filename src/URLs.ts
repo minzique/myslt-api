@@ -47,8 +47,6 @@ export const getProtocolReportUrl = BASE_URL + "BBVAS/ProtocolReport?";
 //get addon list DataUrl
 export const getAddonListDataUrl = BASE_URL + "BBVAS/GetVASDataBundlePackages?";
 export const getAddVASDataBundlePostPaidUrl = BASE_URL + "BBVAS/AddVASDataBundlePostPaid?";
-
-
 export const getAddVASDataBundlePostPaidV2Url = BASE_URL + "BBVAS/AddVASDataBundlePostPaidV2?";
 
 //service related upgrade package
@@ -62,3 +60,63 @@ export const getExtraGBPostPaidUrl = BASE_URL + "BBVAS/PurchaseExtraGBPostpaid?"
 
 //bill history
 export const getBillHistoryRequestUrl = BASE_URL + "AccountOMNI/BillHistoryRequestV2?";
+
+//update
+export const putUpdateContacttUrl = BASE_URL + "BBVAS/UpdateContact?";
+export const ChangeBBPassword = BASE_URL + "BBVAS/ChangeBBPassword?";
+
+//User Complaints
+export const getComplaintsListUrl = BASE_URL + "Fault/ViewFaultList?";
+export const createFaultReques = BASE_URL + "Fault/CreateFaultRequest?";
+
+//ebill
+export const ebillActivateStatusUrl = BASE_URL + "ebill/eBillStatusRequest?";
+export const ebillSmsActivateStatusUrl = BASE_URL + "ebill/SMSServiceStatusRequest?";
+export const ebillCheckUserExistUrl = BASE_URL + "ebill/eBillCheckUserExistV2?";
+export const ebillOtpAuthUrl = BASE_URL + "ebill/OTPeBillAuthRequest?";
+export const ebillActivateUrl = BASE_URL + "ebill/eBillRegistration?";
+export const payBillUrl = BILL_PAY + "confirm.php";
+export const removeAccountUrl = BASE_URL + "AccountOMNI/RemoveAccountRequest?";
+export const eBillResendRequest = BASE_URL + "ebill/eBillResendRequest?";
+export const popupMessageBanner = BASE_URL + "notifications/PopupMessageBanner?"
+export const ebillTypeStatusUrl = BASE_URL + "ebill/BillStatusRequest?";
+export const ebillDownloadRequestUrl = BASE_URL + "ebill/BillDownloadRequest?";
+export const ebillSmartBillRegistrationUrl = BASE_URL + "ebill/SmartBillRegistration";
+
+//voice
+export const getCallForwardingStatusUrl = BASE_URL + "Voice/CheckCallForwardingStatus?";
+export const getCallForwardingRequestUrl = BASE_URL + "Voice/CallForwardingRequest?";
+
+//ftth urls
+export const OTPRequest = BASE_URL + "Verify/SendOTPRequest?";
+export const OTPValidation = BASE_URL + "Verify/VerifyOTPRequest?";
+export const paymentsLogs = BASE_URL + 'NewCon/GetPaymentLogs?orderreff='
+export const getDraftDetails = BASE_URL + 'NewCon/GetDraftDetails?'
+export const saveDraftDetails = BASE_URL + 'NewCon/SaveDraftData'
+export const updateDraftDetails = BASE_URL + 'NewCon/UpdateDraftData'
+export const reserveFacility = BASE_URL + 'NewCon/ReserveFacility?'
+export const ftthFileUpload = BASE_URL + 'NewCon/UploadMultipartSingle'
+export const refundMoneyURL = BASE_URL + 'NewCon/UpdatePaymentLogs?'
+export const CheckExistingCustomer = BASE_URL + 'NewCon/CheckExistCustomer?'
+export const getCityListUrl = BASE_URL + 'NewCon/GetCityList'
+export const getFeasibilityCheck = BASE_URL + 'NewCon/GetFeasibilityCheck?'
+export const getBbPackagesList = BASE_URL + 'NewCon/GetBBPackagesInterim?'
+export const getPeoTvPackagesList = BASE_URL + 'NewCon/GetPEOPackagesInterim?'
+
+//RedeemVoucher
+export const redeemVoucher = BASE_URL + "BBVAS/RedeemVoucher?";
+
+//connection request
+export const connectionRequestUrl = BASE_URL + "Sales/SalesLeadCreationRequest?";
+
+// Gift Data
+export const getDataGiftPackagesUrl = BASE_URL + "BBVAS/DataGiftPackages?";
+export const getDataGiftEnrollPPUrl = BASE_URL + "BBVAS/DataGiftEnroll?";
+
+//profile
+export const terminateProfileUrl = BASE_URL + "Account/TerminateProfile";
+export const getViewUserInfoUrl = BASE_URL + "Account/ViewUserInfo";
+export const updatesContacttnfoUrl = BASE_URL + "Account/UpdateUserInfo"
+
+//happy day
+export const HappyDaySetUrl = BASE_URL + "BBVAS/HappyDay?"

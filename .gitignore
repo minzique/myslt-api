@@ -1,2 +1,11 @@
+# vscode
+.vscode 
+
+# npm
 node_modules
-.env 
+
+# secrets
+.env
+
+# Exclude macOS Finder (System Explorer) View States
+.DS_Store
